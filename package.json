@@ -16,8 +16,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn build && mv build docs"
   },
+  "homepage": "https://taka1156.github.io/febd-react-sample/",
   "eslintConfig": {
     "extends": [
       "react-app",
